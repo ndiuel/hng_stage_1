@@ -11,7 +11,7 @@ const days = {
     3: 'Wednesday',
     4: 'Thursday',
     5: 'Friday',
-    6: 'Saturday'
+    6: 'Saturda'
 }
 
 app.get("/", (req, res) => {
