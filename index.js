@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     const track = req.query.track;
 
     const gitHubUrl = 'https://github.com/ndiuel/hng_stage_1';
-    const gitHubFileUrl = '';
+    const gitHubFileUrl = 'https://github.com/ndiuel/hng_stage_1/blob/main/index.js';
 
     const localTIme = new Date();
     const utcTime = new Date(
