@@ -36,7 +36,7 @@ app.get("/api", (req, res) => {
         'github_repo_url': gitHubUrl,
         'github_file_url': gitHubFileUrl, 
         'current_day': days[localTIme.getDay()],
-        'utc_time': utcTime.toISOString(),
+        'utc_time': utcTime.toISOString().replace('.000Z', 'Z'),
         'status_code': 200
     })
 });
