@@ -21,7 +21,7 @@ app.get("/api", (req, res) => {
     const track = req.query.track;
 
     const gitHubUrl = 'https://github.com/ndiuel/hng_stage_1';
-    const gitHubFileUrl = 'https://github.com/ndiuel/hng_stage_1/blob/main/api/index.js';
+    const gitHubFileUrl = 'https://github.com/ndiuel/hng_stage_1/blob/main/ai/index.js';
 
     const localTIme = new Date();
     const utcTime = new Date(
